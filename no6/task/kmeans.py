@@ -18,7 +18,6 @@ import matplotlib.pyplot as plt
 # クラスタリング結果を返すように実装してください
 def clustering(feature, k):
     pred = KMeans(n_clusters=k, random_state=10).fit_predict(feature)
-    print(pred)
     return pred
 ##################
 

@@ -18,7 +18,6 @@ import matplotlib.pyplot as plt
 # クラスタリング結果を返すように実装してください
 def clustering(feature, eps, minPoints):
     pred = DBSCAN(eps=eps, min_samples=minPoints).fit_predict(feature)
-    print(pred)
     return pred
 ##################
 
